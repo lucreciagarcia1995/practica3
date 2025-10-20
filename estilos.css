@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+    background-color: #000; /* Fondo negro estilo galáctico */
+    color: #FFE81F; /* Amarillo Star Wars */
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #FFE81F;
+    text-shadow: 2px 2px 4px #fff20088;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #111;
+    border: 2px solid #FFE81F;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 0 15px #ffe81f44;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ffe81f;
+    background-color: #222;
+    color: #ffe81f;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #FFE81F;
+    color: #000;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #fff200;
+}
+
+h3 {
+    border-bottom: 1px solid #ffe81f55;
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+p, ul {
+    margin: 0.5rem 0;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+ul li {
+    color: #ccc;
+}
+
+img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    border: 2px solid #ffe81f55;
+    border-radius: 10px;
+}
