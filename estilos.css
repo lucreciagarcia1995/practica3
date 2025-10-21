@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
 body {
-    background-color: #000; /* Fondo negro estilo galáctico */
-    color: #FFE81F; /* Amarillo Star Wars */
+    background-image: url(darthvader.jpeg); 
+    color: #FFE81F; 
     font-family: 'Orbitron', sans-serif;
     margin: 0;
     padding: 2rem;
@@ -80,10 +80,4 @@ ul li {
     color: #ccc;
 }
 
-img {
-    display: block;
-    margin: 1rem auto;
-    max-width: 100%;
-    border: 2px solid #ffe81f55;
-    border-radius: 10px;
-}
+
