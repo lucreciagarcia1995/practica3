@@ -26,10 +26,6 @@ async function buscarInfoStarWars() {
 
     const personaje = data.results[0];
 
-    if (!personaje) {
-        color.innerText = "Personaje no encontrado";
-        return;
-    }
 
    
     color.innerText = personaje.hair_color;
