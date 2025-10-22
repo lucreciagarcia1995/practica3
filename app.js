@@ -27,7 +27,6 @@ async function buscarInfoStarWars() {
     const personaje = data.results[0];
 
 
-   
     color.innerText = personaje.hair_color;
     genero.innerText = personaje.gender;
     masa.innerText = personaje.mass;
